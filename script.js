@@ -1,6 +1,10 @@
+var cities = localStorage.getItem("cities");
+ad;
+
 // event listener for search button on click
 document.querySelector(".search-Btn").addEventListener("click", function () {
   var city = document.querySelector(".search-text").value;
+  localStorage.setItem("cities");
   // weather api
   var url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=443d8e5cf520868251c1f1b535dc5a64&units=imperial`;
   fetch(url)
