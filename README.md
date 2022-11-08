@@ -22,4 +22,5 @@ Please refer the license present in the github repository.
 
 Link to Deployed Page --
 
-Screenshot of page --
+Screenshot of page
+<img src="./image/Capture.PNG">
