@@ -20,7 +20,7 @@ N/A
 
 Please refer the license present in the github repository.
 
-Link to Deployed Page --
+Link to Deployed Page -- https://walleric23.github.io/weather-dashboard/
 
 Screenshot of page
 <img src="./image/Capture.PNG">
