@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Dashboard</title>
   </head>
+  <h1>Weather Dashboard</h1>
   <body>
+    <!-- city search area -->
     <input class="search-text" placeholder="City Name" />
     <button class="search-Btn">Search</button>
-
+    <!-- weather display for current day -->
     <main class="weather">
       <h1 class="city-name"></h1>
       <span class="date"></span>
       <img class="icon" />
       <ul>
+        <!-- temp, wind speed, humidity % -->
         <li class="temp"></li>
         <li class="wind"></li>
         <li class="humidity"></li>
       </ul>
     </main>
+    <!-- 5 day forecast -->
     <section class="fiveDay">
       <div>
         Day 1
@@ -27,12 +31,14 @@
         <span class="date1"></span>
         <img class="icon" />
         <ul>
+          <!-- weather info following day -->
           <li class="temp1"></li>
           <li class="wind1"></li>
           <li class="humidity1"></li>
         </ul>
       </div>
       <div>Day 2</div>
+      <!-- day 2 -->
       <h1 class="city-name"></h1>
       <span class="date2"></span>
       <img class="icon" />
@@ -43,6 +49,7 @@
       </ul>
       <div>
         Day 3
+        <!-- day 3 -->
         <h1 class="city-name"></h1>
         <span class="date3"></span>
         <img class="icon" />
@@ -54,6 +61,7 @@
       </div>
       <div>
         Day 4
+        <!-- day 4 -->
         <h1 class="city-name"></h1>
         <span class="date4"></span>
         <img class="icon" />
@@ -65,6 +73,7 @@
       </div>
       <div>
         Day 5
+        <!-- 5th day of forecast -->
         <h1 class="city-name"></h1>
         <span class="date5"></span>
         <img class="icon" />
@@ -75,10 +84,12 @@
         </ul>
       </div>
     </section>
+    <!-- moment script -->
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
     ></script>
+    <!-- my script -->
     <script src="./script.js"></script>
   </body>
 </html>
