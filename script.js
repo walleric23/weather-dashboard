@@ -1,6 +1,3 @@
-var cities = localStorage.getItem("cities");
-ad;
-
 // event listener for search button on click
 document.querySelector(".search-Btn").addEventListener("click", function () {
   var city = document.querySelector(".search-text").value;
